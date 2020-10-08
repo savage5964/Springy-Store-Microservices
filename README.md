@@ -1,6 +1,10 @@
-# Springy Store μServices ![GitHub release (latest by date)](https://img.shields.io/github/v/release/mohamed-taman/Springy-Store-Microservices) [![Release Codename](https://img.shields.io/badge/codename-Refresher_3-yellow.svg)](https://github.com/mohamed-taman/Springy-Store-Microservices/releases)
-[![Twitter Follow](https://img.shields.io/twitter/follow/_tamanm?label=follow%20me&style=social)](https://twitter.com/_tamanm)
+# Springy Store μServices ![GitHub release (latest by date)](https://img.shields.io/github/v/release/mohamed-taman/Springy-Store-Microservices) [![Release Codename](https://img.shields.io/badge/codename-Refresher_3-yellow.svg)](https://github.com/mohamed-taman/Springy-Store-Microservices/releases) [![BCH compliance](https://bettercodehub.com/edge/badge/mohamed-taman/Springy-Store-Microservices?branch=master)](https://bettercodehub.com/) | [![Twitter Follow](https://img.shields.io/twitter/follow/_tamanm?label=follow%20me&style=social)](https://twitter.com/_tamanm)
 
+## Important Note: This project's new milestone is to move The whole system to work on Kubernetes, so stay tuned.
+
+## Better Code Hub
+I analysed this repository according to the clean code standards on [Better Code Hub](https://bettercodehub.com/) just to get an independent opinion of how bad the code is. Surprisingly, the compliance score is high!
+## Introduction
 - This project is a development of a small set of **Spring Boot** and **Cloud** based Microservices projects that implement cloud-native intuitive, Reactive Programming, Event-driven, Microservices design patterns, and coding best practices.
 - The project follows [**CloudNative**](https://www.cncf.io/) recommendations and The [**twelve-factor app**](https://12factor.net/) methodology for building *software-as-a-service apps* to show how μServices should be developed and deployed.
 - This project uses cutting edge technologies like Docker, Kubernetes, Elasticsearch Stack for
@@ -50,15 +54,17 @@ Now, as we have learned about different system components, then let's start.
 
 The following are the initially required software pieces:
 
-1. **Git**: it can be downloaded and installed from https://git-scm.com/downloads.
+1. **Maven**: Apache Maven is a software project management and comprehension tool, it can be downloaded from here https://maven.apache.org/download.cgi
 
-2. **Java 15 EA**: it can be downloaded and installed from https://jdk.java.net/15/.
+1. **Git**: it can be downloaded and installed from https://git-scm.com/downloads
 
-3. **curl**: this command-line tool for testing HTTP-based APIs can be downloaded and installed from https://curl.haxx.se/download.html.
+1. **Java 15 EA**: it can be downloaded and installed from https://jdk.java.net/15/
 
-4. **jq**: This command-line JSON processor can be downloaded and installed from https://stedolan.github.io/jq/download/.
+1. **curl**: this command-line tool for testing HTTP-based APIs can be downloaded and installed from https://curl.haxx.se/download.html
 
-5. Spring Boot Initializer: This *Initializer* generates *spring* boot project with just what you need to start quickly! Start from here https://start.spring.io/.
+1. **jq**: This command-line JSON processor can be downloaded and installed from https://stedolan.github.io/jq/download/
+
+1. Spring Boot Initializer: This *Initializer* generates *spring* boot project with just what you need to start quickly! Start from here https://start.spring.io/
 
 6. **Docker Desktop**: The fastest way to containerize applications on your desktop, and you can download it from here [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 
@@ -345,7 +351,14 @@ Removing ssm_zipkin_1         ... done
 Removing network ssm_default
 ```
 ### The End
-Happy coding :)
+In the end, I hope you enjoyed the application and find it useful, as I did when I was developing it. 
+If you would like to enhance, please: 
+- **Open PRs**, 
+- Give **feedback**, 
+- Add **new suggestions**, and
+- Finally, give it a 🌟.
+
+*Happy Coding ...* 🙂
 
 # License
 Copyright (C) 2017-2020 Mohamed Taman, Licensed under the MIT License.
